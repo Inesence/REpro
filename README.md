@@ -1,2 +1,1 @@
-# REpro
-Receipt Processing Automation for Accounting 
+# Receipt Processing Automation for Accounting 
