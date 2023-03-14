@@ -1,26 +1,18 @@
-# Receipt Processing Automation for Accounting 
+# Repository Description: Receipt Parsing and Processing with Donut Model
 
-Receipt Processing Automation for Accounting is a Machine Learning powered receipt parsing and documentation project designed to streamline accounting processes through the power of automation and machine learning. By leveraging cutting-edge AI technology, REpro can accurately extract key data points from receipts, organise expenses, and generate accounting reports that make the time-consuming receipt processing a breeze.
+This repository contains a project aimed at organisations and companies that do not have extensive computing power or IT knowledge to parse and process receipts for expense reporting. The project involves finetuning the Donut model on a custom to extract relevant information from receipts, and then importing this information into an automated report.
 
-## Features
-Automated receipt parsing: REpro can automatically extract key information from receipts, including dates, vendor names, registration number, total and the receipt number. This eliminates the need for manual data entry, saving you time and reducing errors.
-Data processing: REpro uses algorithms to sort and concatinate information ready to be entered in the monthly and yearly accounting reports. 
-Report auto-fill: REpro then automatically fills your spreadsheet report that is to be submitted to clients and the goverment. 
+## Project Overview
+The project is organized into two folders:
 
-## Getting Started
-To get started with REpro:
-1. Take photos of your receipts on your phone 
-2. Upload the receipts 
-3. Run *XYZ* 
-4. Run *YPS*
-5. Run *POI*
+1. **Creating_dataset**: In this folder, you will learn how to create a dataset from the receipts you want to process. If there is no existing application or model that suits your needs, this folder will guide you through the process of creating a dataset to finetune the Donut model for your specific requirements. By extracting information for reporting, you will save time and effort in the future.
 
-If you need any additional information to be extracted from the receipts - head over to *xyz* to finetune and create your own receipt parsing model!
+2. **Finetuning_Donut_model**: In this folder, we will use a [guide](https://www.philschmid.de/fine-tuning-donut) written by Phillip Schmitt to finetune the Donut model. The guide will be executed in Google Colab because it can use GPU RAM, which is particularly useful if your computing resources are limited. This will make the process faster and more efficient while also protecting your laptop from crashing.
 
-And letting the AI and algorithms do the work for you!
+3. **Receipt_processor-Latvian_accounting_assist** : This folder contains a receipt processing pipeline for accounting in Latvia. It uses the finetuned Donut model to extract information from receipts, process the extracted data, and automate report building in Excel. The model will be continuously finetuned and improved as more receipts are collected.
 
-## Support
-If you have any comments or questions feel free to reach out to me. 
 
-## Conclusion
-REpro is a powerful tool that can save you time, reduce errors, and improve the accuracy of your accounting records. By leveraging the latest advances in automation and machine learning,REpro makes it easy to manage your receipts and expenses so you can focus on flourishing your business. Try it out today and see the difference for yourself!
+
+## Summary
+
+This project provides a step-by-step guide for creating a dataset, finetuning the Donut model, and automating the process of report building. By using this project, organizations and companies with limited computing power or IT knowledge can easily extract the necessary information from receipts and simplify their expense reporting.
