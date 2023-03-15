@@ -3,6 +3,20 @@ This folder provides a guide on how to prepare the dataset for training the Donu
 
 Here we will use two types of document parsing methods: OCR-based and non-OCR based.
 
+## Taking photos of the receipts
+
+1. Ensure good lighting: Take photos of the receipts in a well-lit area or use the phone's flash to illuminate the receipt. Poor lighting can make the text hard to read and result in inaccurate OCR results.
+
+2. Position the camera correctly: Position the camera directly above the receipt and ensure that the entire receipt is in the frame. Keep the camera steady and avoid shaking or moving it while taking the photo.
+
+3. Avoid shadows and glare: Make sure there are no shadows or glare on the receipt. Shadows can make the text hard to read, while glare can reflect light and obscure the text.
+
+4. Keep the receipt flat and uncreased: Flatten the receipt and ensure that it is not creased or folded. Creases and folds can distort the text and make it difficult for Tesseract to recognize it.
+
+5. Use high-resolution settings: Set the camera to capture photos at the highest possible resolution. Higher resolution photos will have more detail, making it easier for Tesseract to recognize the text.
+
+6. Use a contrasting background: When taking photos of receipts, it's important to use a background that contrasts with the receipt itself. For example, if the receipt is white, use a dark background, and if the receipt is dark, use a light background. This will make the text stand out and be easier for Tesseract to recognize. Additionally, avoid using busy or patterned backgrounds that could interfere with the OCR process. A plain, uncluttered background will help ensure that the receipt is the main focus of the photo.
+
 ## OCR-based vs Non-OCR based Document Parsing
 | Method        |	Pros                        |	                           Cons |
 | ------------- | --------------------------------- | --------------------------------- |
