@@ -23,5 +23,11 @@ Then, in "vendor_extraction_with_DONUT.ipyb," we will use the ["naver-clova-ix/d
 
 However, it may be challenging to extract the total sum and receipt number automatically, so we may need to input those manually or if you feel up to the challange you adjust the code to recognize them automatically.
 
+## data_extraction_with_OCR.py
+
+This code uses the pytesseract library to extract information from photos and create JSON files. Before running the code, you need to install `pytesseract` and set the path to the Tesseract executable using the `pytesseract.pytesseract.tesseract_cmd` variable in line 16. You also need to specify the path to the image folder by setting the `folder_path` variable, and then execute the `process_images_in_folder(folder_path) function` in line 122.
+
+This code will create **data** folder with renamed image files in **img** subfolder and corresponding json files in **key** subfolder.
+
 ## Summary
 This folder provides a step-by-step guide on how to prepare the dataset for training the Donut model using non-OCR based document parsing. By following these instructions, you can extract the necessary information from receipts and streamline the expense reporting process.
