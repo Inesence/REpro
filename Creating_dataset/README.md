@@ -43,5 +43,11 @@ This code uses the pytesseract library to extract information from photos and cr
 
 This code will create **data** folder with renamed image files in **img** subfolder and corresponding json files in **key** subfolder.
 
+## vendor_extraction_with_DONUT.ipyb
+
+This code utilizes the finetuned [Donut](https://huggingface.co/docs/transformers/model_doc/donut) model to extract the vendor name from receipts, saving the results in the JSON files created during the previous step. The updated JSON files will then be compressed into a zip file that can be downloaded to your local folder.
+
+To execute this step, you can use Google Colab. It's a free platform that offers a variety of resources, including CPU, GPU, and RAM. You can easily sign in with your Gmail account and get started right away.
+
 ## Summary
 This folder provides a step-by-step guide on how to prepare the dataset for training the Donut model using non-OCR based document parsing. By following these instructions, you can extract the necessary information from receipts and streamline the expense reporting process.
