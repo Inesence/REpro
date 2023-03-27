@@ -12,6 +12,7 @@ REpro offers several key features that make receipt processing easy and efficien
  - Report auto-fill: REpro then automatically fills your spreadsheet report that is to be submitted to clients and the government.
 
 **This specific code is designed for Latvian expense reporting for self-employed individuals and small companies. The output of REpro is an organized and easy-to-read Excel file filled with your expenses, grouped by month in separate sheets. The template we used is based on a free resource we found online several years ago, but unfortunately, we are unable to locate the original source at this time.** 
+
 If you don't need this specific functionality, you can use the pipeline as a template and create your own pipeline for your application. If you need any additional information to be extracted from receipts, you can head over to [Inesence/REpro/Finetuning_Donut_model](https://github.com/Inesence/REpro/tree/main/Finetuning_Donut_model) to fine-tune and create your own receipt parsing model.
 
 ## Getting Started
@@ -20,11 +21,11 @@ To get started with REpro, follow these simple steps:
 1. Take photos of your receipts on your phone.
 2. Upload the photos to your computer and zip them.
 3. Open the file `Receipt_information_extraction_LV.ipnyb` in Google Colab.
-4. Download the resulting keys.zip file from Google Colab.
+4. Download the resulting `keys.zip` file from Google Colab.
 5. Unzip the file on your device and check if the parsed information is correct.
-6. Enter your Excel template `file template.xlsx` and keys paths ready (right-click on the folder--> properties, copy it from there).
+6. Enter your Excel template file `template.xlsx` and keys paths ready (right-click on the folder--> properties, copy it from there).
 7. Run `Automated_receipt_processing.py`.
-8. If additional receipts come up, run steps 1-5 Add_receipts.py and enter the name of the existing Excel file.
+8. If additional receipts come up, run steps 1-5 `Add_receipts.py` and enter the name of the existing Excel file.
 9. Finally, you can submit the completed excel report to your clients or government agencies.
 
 ## Limitations and Known Issues
