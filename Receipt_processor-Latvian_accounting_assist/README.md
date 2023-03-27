@@ -11,7 +11,7 @@ REpro offers several key features that make receipt processing easy and efficien
  - Data processing: REpro uses algorithms to sort and concatenate information ready to be entered in monthly and yearly accounting reports.
  - Report auto-fill: REpro then automatically fills your spreadsheet report that is to be submitted to clients and the government.
 
-** This specific code is designed for Latvian expense reporting for self-employed individuals and small companies. The output of REpro is an organized and easy-to-read Excel file filled with your expenses, grouped by month in separate sheets. The template we used is based on a free resource we found online several years ago, but unfortunately, we are unable to locate the original source at this time.** 
+**This specific code is designed for Latvian expense reporting for self-employed individuals and small companies. The output of REpro is an organized and easy-to-read Excel file filled with your expenses, grouped by month in separate sheets. The template we used is based on a free resource we found online several years ago, but unfortunately, we are unable to locate the original source at this time.** 
 If you don't need this specific functionality, you can use the pipeline as a template and create your own pipeline for your application. If you need any additional information to be extracted from receipts, you can head over to [Inesence/REpro/Finetuning_Donut_model](https://github.com/Inesence/REpro/tree/main/Finetuning_Donut_model) to fine-tune and create your own receipt parsing model.
 
 ## Getting Started
